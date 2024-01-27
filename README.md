@@ -14,7 +14,20 @@
             extend: {},
         },
         plugins: [],
+        "tailwindCSS.includeLanguages": { 
+        "plaintext": "javascript" ,
+        "html": "HTML"},
+        "tailwindCSS.emmetCompletions": true, // remove this line if you don't use Emmet
+        "editor.inlineSuggest.enabled": true,
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "css.validate": false,
+        "editor.quickSuggestions": { "strings": "on" },
+        "emmet.includeLanguages": {
+            "javascript": "javascriptreact"
         }
+}
     ```
 4. Adicione código do tailwindo no index.css:
     ```
