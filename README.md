@@ -30,10 +30,10 @@
 }
     ```
 4. Adicione código do tailwindo no index.css:
-    ```
+```
     @tailwind base;
     @tailwind components;
     @tailwind utilities;
-    ```
+```
 5. Inicie seu build process:
 `npm run dev`
