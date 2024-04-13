@@ -27,8 +27,8 @@
         "emmet.includeLanguages": {
             "javascript": "javascriptreact"
         }
-}
-    ```
+    }
+```
 4. Adicione código do tailwindo no index.css:
 ```
     @tailwind base;
